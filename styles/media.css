@@ -1,0 +1,304 @@
+@media screen and (min-width: 740px) {
+    .header-inner {
+        padding: 40px 0 41px;
+    }
+
+    .nav {
+        order: 1;
+        width: auto;
+        height: auto;
+        overflow: auto;
+    }
+
+    .nav ul {
+        display: flex;
+    }
+
+    .nav li {
+        margin: 0 40px 0 0;
+    }
+
+    .nav li:last-child {
+        margin: 0;
+    }
+
+    .nav-hidden {
+        height: auto;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .header-contact {
+        order: 2;
+        display: block;
+        text-align: center;
+    }
+
+    .phone {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        color: #3B3B3B;
+        display: inline-flex;
+        position: relative;
+    }
+
+    .phone::before {
+        content: "";
+        left: -37px;
+        top: 4px;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: url("../images/call.svg") center no-repeat;
+    }
+
+    .header-contact p {
+        margin: 2px 0 0 0;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: rgba(59, 59, 59, 0.5);
+    }
+
+    .heading {
+        margin: 75px 0 74px 0;
+        text-align: center;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .heading h3 {
+        width: 90%;
+        margin: 14px auto 75px;
+        font-size: 50px;
+        line-height: 61px;
+    }
+
+    .heading img{
+        height: 588px;
+    }
+
+    .our-services {
+        margin: 101px auto 0;
+    }
+
+    .service-text {
+        margin: 32px 0 0 0;
+    }
+
+    .service-block {
+        display: block;
+    }
+
+    .service-chema {
+        width: 80%;
+        order: 0;
+        height: 470px;
+        margin: 0 auto;
+    }
+
+    .priceDesktop {
+        display: contents;
+    }
+
+    .priceMobile {
+        display: none;
+    }
+
+
+    .serviceTextMobile {
+        display: none;
+    }
+
+    .serviceTextDesktop {
+        width: 100%;
+        margin: 53px 0 34px;
+        display: block;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 21px;
+        color: #000000;
+    }
+
+    .list-mobile {
+        display: none;
+    }
+
+    .list-desktop {
+        display: block;
+    }
+
+    .list-desktop {
+        margin: 0;
+        padding: 0 20px 0 44px;
+        border-left: 2px solid #9F3535;
+    }
+
+    .list-desktop li {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 22px;
+        color: #262626;
+    }
+
+    .list-desktop li::marker {
+        font-size: 8px;
+    }
+
+    .service-btns {
+        width: 97%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .service-pdf {
+        margin: 0;
+    }
+
+    .renovation {
+        margin-top: 54px;
+        text-align: center;
+    }
+
+    .addit-title {
+        font-size: 36px;
+    }
+
+    .addit-service-cards {
+        justify-content: space-around;
+    }
+
+    .addit-service-card {
+        width: 312px;
+        margin-right: 10px;
+    }
+
+    .footer {
+        margin: 67px 0 0 0;
+        padding: 20px 0 36px;
+    }
+
+    .footer-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-inner p {
+        margin: 0;
+    }
+
+    .footer-call {
+        text-align: end;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .work-block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .work-text {
+        width: 50%;
+    }
+
+    .work-text h2 {
+        font-size: 43px;
+        line-height: 47px;
+    }
+
+    .workTextMobile {
+        display: none;
+    }
+
+    .workTextDesktop {
+        margin: 38px 0 0 0;
+        display: block;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+    }
+
+    .conceptDesktop {
+        width: 505px;
+        height: 340px;
+        margin-left: 46px;
+        display: block;
+        border-radius: 20px;
+    }
+
+
+    .conceptMobile {
+        display: none;
+    }
+
+    .renovation {
+        margin: 72px 0 101px;
+        background: #FFF;
+    }
+
+    .renovation-inner {
+        width: 80%;
+        padding: 77px 0;
+        display: flex;
+        text-align: left;
+        justify-content: right;
+        background: #FFF url("../uploads/renova.png") center left/379px no-repeat;
+    }
+
+    .renovation-text {
+        width: 40%;
+    }
+}
+
+@media screen and  (min-width: 1020px) {
+    .service-text {
+        width: 49%;
+    }
+    .addit-service-cards {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1230px) {
+    .service-block {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+
+    .service-chema {
+        margin: 10px 0 0 45px;
+        padding: 57px 18px 72px 0;
+        background: url(../uploads/chemaBack.png) center right no-repeat;
+        width: 495px;
+        height: 540px;
+        order: 1;
+        border-radius: 20px;
+    }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .btn:hover {
+        border: 1px solid #000000;
+    }
+
+    .nav a:hover {
+        font-weight: 600;
+        color: #BD7048;
+    }
+
+    .addit-service-card a:hover {
+        text-decoration-line: underline;
+        color: #BD7048;
+    }
+}

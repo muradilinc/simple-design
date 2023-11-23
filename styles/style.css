@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container {
+    max-width: 1097px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+img, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+a, button {
+    color: inherit;
+    font-size: inherit;
+}
+
+.btn {
+    padding: 27px 53px;
+    background: #BD7048;
+    border-radius: 100px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px solid #000000;
+}
+
+.btn:active {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    box-shadow: 0 4px 36px rgba(0, 0, 0, 0.05);
+}
+
+.header-inner {
+    padding: 28px 5px;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.logo h1 {
+    margin: 0 0 2px 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.logo span {
+    color: #BD7048;
+}
+
+.logo p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.nav {
+    margin: 20px 0 0 0;
+    width: 100%;
+    order: 2;
+    overflow: hidden;
+    transition: height 2s;
+    text-align: center;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav li {
+    padding: 10px 0;
+}
+
+.nav a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    font-weight: 600;
+    color: #BD7048;
+}
+
+.nav-hidden {
+    margin: 0;
+    height: 0;
+}
+
+.nav-toggle {
+    order: 1;
+    border: none;
+    width: 27px;
+    height: 18px;
+    background: url("../images/burger.svg") center no-repeat;
+}
+
+.header-contact {
+    display: none;
+}
+
+.heading {
+    margin: 51px 0 72px;
+    text-align: left;
+}
+
+.heading h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.heading span {
+    color: #BD7048;
+    font-weight: 600;
+}
+
+.heading h3 {
+    margin: 15px 0 52px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #060606;
+}
+
+.our-work {
+    margin: 0 0 70px 0;
+}
+
+.work-text h2 {
+    margin: 0 0 35px 0;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.work-text h2 span {
+    color: #BD7048;
+}
+
+.workTextMobile {
+    margin: 0 0 71px 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.workTextDesktop {
+    display: none;
+}
+
+.conceptDesktop {
+    display: none;
+}
+
+.conceptMobile {
+    width: 100%;
+}
+
+.our-services {
+    margin: 0 auto 54px;
+}
+
+.serviceTitle {
+    margin: 0 0 42px 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #262626;
+}
+
+.service-chema {
+    width: 100%;
+}
+
+.service-text {
+    margin: 57px 0 0 0;
+}
+
+.service-price {
+    margin: 0 0 23px 0;
+}
+
+.priceDesktop {
+    display: none;
+}
+
+.deadline-work {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(38, 38, 38, 0.7);
+}
+
+.deadline-work span {
+    color: #262626;
+}
+
+.serviceTextMobile {
+    margin: 35px 0 52px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(38, 38, 38, 0.7);
+}
+
+.serviceTextDesktop {
+    display: none;
+}
+
+.list-mobile {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.list-mobile li::marker {
+    font-size: 8px;
+}
+
+.list-mobile li {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #262626;
+}
+
+.list-desktop {
+    display: none;
+}
+
+.service-btns {
+    margin: 77px 0 0 0;
+}
+.service-btn{
+    padding: 24px 43px;
+}
+
+.service-pdf {
+    margin: 34px 0 0 0;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #BD7048;
+    display: flex;
+    align-items: center;
+}
+
+.service-pdf::before {
+    content: "";
+    display: block;
+    margin-right: 7px;
+    width: 42px;
+    height: 40px;
+    background: url("../images/icon-pdf.svg") center no-repeat;
+}
+
+.renovation {
+    padding: 74px 15px 74px 5px;
+    background: #FFF0E9;
+}
+
+.renovation-text h2 {
+    margin: 0 0 15px 0;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #262626;
+}
+
+.renovation-text p {
+    margin: 0 0 54px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(38, 38, 38, 0.7);
+}
+
+.renovation-btn {
+    text-decoration: none;
+}
+
+.addit-service {
+    margin: 67px auto 1px;
+}
+
+.addit-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #262626;
+}
+
+.addit-service-cards {
+    margin: 42px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.addit-service-card {
+    width: 333px;
+    margin: 0 0 39px 0;
+    border: 1px solid #BD7048;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addit-service-card img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.addit-service-card a {
+    flex-grow: 4;
+    padding: 23px 20px;
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #353535;
+}
+
+.addit-service-card a:hover {
+    text-decoration-line: underline;
+    color: #BD7048;
+}
+
+.footer {
+    margin: 1px 0 0 0;
+    padding: 31px 0 36px;
+    background: #262626;
+    box-shadow: 0 4px 37px rgba(0, 0, 0, 0.05);
+}
+
+.footer-inner {
+    text-align: center;
+}
+
+.footer-inner p {
+    margin: 0 0 17px 0;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.footer-call .phone {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFF;
+    display: inline-flex;
+    position: relative;
+}
+
+.footer-call .phone::before {
+    content: "";
+    left: -37px;
+    top: 4px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    stroke: #FFF;
+    background: url("../images/callFooter.svg") center no-repeat;
+}
+
+.footer-call p {
+    margin: 2px 0 0 0;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
